@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CodePen - Form Animation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <header>
+    <h1>Form Animation</h1>
+  </header>
+
+  <main>
+    <form>
+      <div class="field-username">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Username" required>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+
+      <div class="field-email inactive">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Email" required>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+
+      <div class="field-password inactive">
+        <i class="fas fa-key"></i>
+        <input type="password" placeholder="Password" required>
+        <i class="fas fa-arrow-down"></i>
+      </div>
+
+      <div class="field-success inactive">
+        <p>
+          Sign up Successful!
+        </p>
+        <i class="fas fa-check"></i>
+      </div>
+    </form>
+  </main>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+</html>
